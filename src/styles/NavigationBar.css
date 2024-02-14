@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Work+Sans&display=swap');
+
+.navigationBar {
+    width: 100%;
+    height: 100px;
+    background: #212121;
+}
+
+.links {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 50%;
+    font-family: Work Sans;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.resume {
+    color: #6D6D6D;
+    text-decoration: none;
+    margin: 20px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    transition: color 0.3s;
+    background-color: transparent;
+    border: none;
+}
+
+.resume:hover {
+    color: #9A9A9A;
+}
+
+.resume:focus, .resume:active {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #939597;
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    transition: color 0.3s;
+}
+
+.navigationBar a {
+    color: #6D6D6D;
+    text-decoration: none;
+    margin: 20px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.navigationBar a:hover {
+    color: #9A9A9A;
+}
+
+.navigationBar a:focus, .navigationBar a.active {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #939597;
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+    text-underline-offset: 6px;
+    transition: color 0.3s;
+    
+}
+
+.toggleButton {
+    width: 100%;
+    height: 100px;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+  
+.toggleButton svg {
+    font-size: 50px;
+}
+
+.toggleButton button {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#open {
+    height: 50vh;
+}
+
+#open .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .logo {
+        display: none;
+    }
+    .toggleButton {
+        display: flex;
+    }
+    #open .links {
+        width: 100%;
+        text-align: center;
+    }
+    #close .links  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+    .toggleButton {
+        display: flex;
+    }
+    #open .links {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    #close .links {
+        display: none;
+    }
+}

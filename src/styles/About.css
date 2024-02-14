@@ -1,0 +1,1159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Work+Sans&display=swap');
+
+@keyframes slideInFromLeft {
+    0%, 30% {
+        transform: translateX(-10%);
+        opacity: 0%;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromRight {
+    0%, 30% {
+        transform: translateX(50%);
+        opacity: 0%;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
+.about {
+    width: 100%;
+    height: 800px;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMeLine {
+    width: 90%;
+    height: 1px;
+    background-color: #939597;
+    border: none;
+    margin-top: 0px;
+}
+
+.aboutMe {
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -585px;
+    font-weight: bold;
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
+}
+
+.pictureAndParagraph {
+    display: flex;
+    flex-direction: row;
+}
+
+.berkeley {
+    width: 25%;
+    border-radius: 300px;
+    position: relative;
+    left: 140px;
+    top: 40px;
+    border-style: solid;
+    border-color: #939597;
+    border-width: 5px;
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    animation: 1s ease-in-out 0s 1 slideInFromRight;
+}
+
+.aboutMeParagraph {
+    color: white;
+    line-height: 2;
+    text-align: left;
+    width: 700px;
+    position: relative;
+    left: 230px;
+    top: 45px;
+}
+
+.internship {
+    color: white;
+    line-height: 2;
+    text-align: left;
+    width: 700px;
+    position: relative;
+    left: 230px;
+    top: 35px;
+}
+
+.outro {
+    color: white;
+    line-height: 2;
+    text-align: left;
+    width: 700px;
+    position: relative;
+    left: 230px;
+    top: 25px;
+}
+
+.skills {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsHeader {
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -618px;
+    top: 60px;
+    font-weight: bold;
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
+}
+
+.skillsHeaderLine {
+    width: 90%;
+    height: 1px;
+    background-color: #939597;
+    border: none;
+    margin-top: 0px;
+    position: relative;
+    top: 60px;
+}
+
+.skillsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1150px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60px;
+    left: 150px;
+    animation: 1s ease-in-out 0s 1 slideInFromRight;
+}
+
+.javaBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.javaText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.javaIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.pythonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pythonText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.pythonIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.htmlBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.htmlText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.htmlIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.cssBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cssText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.cssIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.javascriptBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.javascriptText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.javascriptIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.reactBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reactText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.reactIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.tailwindBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tailwindText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.tailwindIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.nodejsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nodejsText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.nodejsIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.sqlBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sqlText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.sqlIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.nextjsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nextjsText {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.nextjsIcon {
+    font-size: 50px;
+    color: white;
+}
+
+.java {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.java:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.java:hover p {
+    color: black;
+}
+
+button.java:hover svg{
+    color: black;
+}
+
+.python {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.python:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.python:hover p {
+    color: black;
+}
+
+button.python:hover svg{
+    color: black;
+}
+
+.html {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.html:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.html:hover p {
+    color: black;
+}
+
+button.html:hover svg{
+    color: black;
+}
+
+.css {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.css:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.css:hover p {
+    color: black;
+}
+
+button.css:hover svg{
+    color: black;
+}
+
+.javascript {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.javascript:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.javascript:hover p {
+    color: black;
+}
+
+button.javascript:hover svg{
+    color: black;
+}
+
+.react {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.react:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.react:hover p {
+    color: black;
+}
+
+button.react:hover svg{
+    color: black;
+}
+
+.tailwind {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.tailwind:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.tailwind:hover p {
+    color: black;
+}
+
+button.tailwind:hover svg{
+    color: black;
+}
+
+.nodejs {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.nodejs:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.nodejs:hover p {
+    color: black;
+}
+
+button.nodejs:hover svg{
+    color: black;
+}
+
+.sql {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.sql:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.sql:hover p {
+    color: black;
+}
+
+button.sql:hover svg{
+    color: black;
+}
+
+.nextjs {
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.nextjs:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    background-color: white;
+}
+
+button.nextjs:hover p {
+    color: black;
+}
+
+button.nextjs:hover svg{
+    color: black;
+}
+
+@media only screen and (max-width: 900px) {
+    .about {
+        overflow-x: hidden !important;
+    }
+    .aboutMe {
+        position: relative;
+        left: -342px;
+    }
+    .berkeley {
+        width: 50%;
+        left: 225px;
+    }
+    .paragraphs {
+        font-size: 15px;
+        position: relative;
+        top: 480px;
+        left: -600px;
+    }
+    .aboutMeParagraph {
+        text-align: center;
+    }
+    .internship {
+        text-align: center;
+    }
+    .outro {
+        text-align: center;
+    }
+    .skillsHeader {
+        margin-top: 350px;
+        left: -373px;
+    }
+    .skillsBox {
+        width: 650px;
+        left: 125px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .paragraph {
+        height: 300px;
+    }
+    .aboutMe {
+        position: relative;
+        left: -105px;
+    }
+    .berkeley {
+        height: 100%;
+        left: 90px;
+    }
+    .paragraphs {
+        position: relative;
+        font-size: 10px;
+        left: -390px;
+        top: 235px;
+    }
+    .aboutMeParagraph {
+        width: 300px;
+        text-align: center;
+    }
+    .internship {
+        width: 300px;
+        text-align: center;
+    }
+    .outro {
+        width: 300px;
+        text-align: center;
+    }
+    .skillsHeader {
+        left: -135px;
+    }
+    .skillsBox {
+        width: 325px;
+        left: 25px;
+    }
+    .java {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .javaBox {
+        width: 100px;
+        height: 45px;
+    }
+    .javaIcon {
+        font-size: 25px;
+    }
+    .javaText {
+        font-size: 12px;
+    }
+    .python {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .pythonBox {
+        width: 100px;
+        height: 45px;
+    }
+    .pythonIcon {
+        font-size: 25px;
+    }
+    .pythonText {
+        font-size: 12px;
+    }
+    .html {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .htmlBox {
+        width: 100px;
+        height: 45px;
+    }
+    .htmlIcon {
+        font-size: 25px;
+    }
+    .htmlText {
+        font-size: 12px;
+    }
+    .javascript {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .javascriptBox {
+        width: 100px;
+        height: 45px;
+    }
+    .javascriptIcon {
+        font-size: 25px;
+    }
+    .javascriptText {
+        font-size: 12px;
+    }
+    .react {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .reactBox {
+        width: 100px;
+        height: 45px;
+    }
+    .reactIcon {
+        font-size: 25px;
+    }
+    .reactText {
+        font-size: 12px;
+    }
+    .css {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .cssBox {
+        width: 100px;
+        height: 45px;
+    }
+    .cssIcon {
+        font-size: 25px;
+    }
+    .cssText {
+        font-size: 12px;
+    }
+    .tailwind {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .tailwindBox {
+        width: 100px;
+        height: 45px;
+    }
+    .tailwindIcon {
+        font-size: 25px;
+    }
+    .tailwindText {
+        font-size: 12px;
+    }
+    .nodejs {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .nodejsBox {
+        width: 100px;
+        height: 45px;
+    }
+    .nodejsIcon {
+        font-size: 25px;
+    }
+    .nodejsText {
+        font-size: 12px;
+    }
+    .sql {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .sqlBox {
+        width: 100px;
+        height: 45px;
+    }
+    .sqlIcon {
+        font-size: 25px;
+    }
+    .sqlText {
+        font-size: 12px;
+    }
+    .nextjs {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .nextjsBox {
+        width: 100px;
+        height: 45px;
+    }
+    .nextjsIcon {
+        font-size: 25px;
+    }
+    .nextjsText {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 390px) and (min-width: 390px) {
+    .paragraph {
+        height: 300px;
+    }
+    .aboutMe {
+        position: relative;
+        left: -112px;
+    }
+    .berkeley {
+        height: 100%;
+        left: 90px;
+    }
+    .paragraphs {
+        position: relative;
+        font-size: 10px;
+        left: -393px;
+        top: 250px;
+    }
+    .aboutMeParagraph {
+        width: 300px;
+        text-align: center;
+    }
+    .internship {
+        width: 300px;
+        text-align: center;
+    }
+    .outro {
+        width: 300px;
+        text-align: center;
+    }
+    .skillsHeader {
+        left: -145px;
+    }
+    .skillsBox {
+        width: 325px;
+        left: 30px;
+    }
+    .java {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .javaBox {
+        width: 100px;
+        height: 45px;
+    }
+    .javaIcon {
+        font-size: 25px;
+    }
+    .javaText {
+        font-size: 12px;
+    }
+    .python {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .pythonBox {
+        width: 100px;
+        height: 45px;
+    }
+    .pythonIcon {
+        font-size: 25px;
+    }
+    .pythonText {
+        font-size: 12px;
+    }
+    .html {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .htmlBox {
+        width: 100px;
+        height: 45px;
+    }
+    .htmlIcon {
+        font-size: 25px;
+    }
+    .htmlText {
+        font-size: 12px;
+    }
+    .javascript {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .javascriptBox {
+        width: 100px;
+        height: 45px;
+    }
+    .javascriptIcon {
+        font-size: 25px;
+    }
+    .javascriptText {
+        font-size: 12px;
+    }
+    .react {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .reactBox {
+        width: 100px;
+        height: 45px;
+    }
+    .reactIcon {
+        font-size: 25px;
+    }
+    .reactText {
+        font-size: 12px;
+    }
+    .css {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .cssBox {
+        width: 100px;
+        height: 45px;
+    }
+    .cssIcon {
+        font-size: 25px;
+    }
+    .cssText {
+        font-size: 12px;
+    }
+    .tailwind {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .tailwindBox {
+        width: 100px;
+        height: 45px;
+    }
+    .tailwindIcon {
+        font-size: 25px;
+    }
+    .tailwindText {
+        font-size: 12px;
+    }
+    .nodejs {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .nodejsBox {
+        width: 100px;
+        height: 45px;
+    }
+    .nodejsIcon {
+        font-size: 25px;
+    }
+    .nodejsText {
+        font-size: 12px;
+    }
+    .sql {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .sqlBox {
+        width: 100px;
+        height: 45px;
+    }
+    .sqlIcon {
+        font-size: 25px;
+    }
+    .sqlText {
+        font-size: 12px;
+    }
+    .nextjs {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .nextjsBox {
+        width: 100px;
+        height: 45px;
+    }
+    .nextjsIcon {
+        font-size: 25px;
+    }
+    .nextjsText {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 450px) and (min-width: 410px) {
+    .paragraph {
+        height: 300px;
+    }
+    .aboutMe {
+        position: relative;
+        left: -125px;
+    }
+    .berkeley {
+        height: 100%;
+        left: 100px;
+    }
+    .paragraphs {
+        position: relative;
+        font-size: 10px;
+        left: -390px;
+        top: 250px;
+    }
+    .aboutMeParagraph {
+        width: 300px;
+        text-align: center;
+    }
+    .internship {
+        width: 300px;
+        text-align: center;
+    }
+    .outro {
+        width: 300px;
+        text-align: center;
+    }
+    .skillsHeader {
+        left: -155px;
+    }
+    .skillsBox {
+        width: 325px;
+        left: 45px;
+    }
+    .java {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .javaBox {
+        width: 100px;
+        height: 45px;
+    }
+    .javaIcon {
+        font-size: 25px;
+    }
+    .javaText {
+        font-size: 12px;
+    }
+    .python {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .pythonBox {
+        width: 100px;
+        height: 45px;
+    }
+    .pythonIcon {
+        font-size: 25px;
+    }
+    .pythonText {
+        font-size: 12px;
+    }
+    .html {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .htmlBox {
+        width: 100px;
+        height: 45px;
+    }
+    .htmlIcon {
+        font-size: 25px;
+    }
+    .htmlText {
+        font-size: 12px;
+    }
+    .javascript {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .javascriptBox {
+        width: 100px;
+        height: 45px;
+    }
+    .javascriptIcon {
+        font-size: 25px;
+    }
+    .javascriptText {
+        font-size: 12px;
+    }
+    .react {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .reactBox {
+        width: 100px;
+        height: 45px;
+    }
+    .reactIcon {
+        font-size: 25px;
+    }
+    .reactText {
+        font-size: 12px;
+    }
+    .css {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .cssBox {
+        width: 100px;
+        height: 45px;
+    }
+    .cssIcon {
+        font-size: 25px;
+    }
+    .cssText {
+        font-size: 12px;
+    }
+    .tailwind {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .tailwindBox {
+        width: 100px;
+        height: 45px;
+    }
+    .tailwindIcon {
+        font-size: 25px;
+    }
+    .tailwindText {
+        font-size: 12px;
+    }
+    .nodejs {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .nodejsBox {
+        width: 100px;
+        height: 45px;
+    }
+    .nodejsIcon {
+        font-size: 25px;
+    }
+    .nodejsText {
+        font-size: 12px;
+    }
+    .sql {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .sqlBox {
+        width: 100px;
+        height: 45px;
+    }
+    .sqlIcon {
+        font-size: 25px;
+    }
+    .sqlText {
+        font-size: 12px;
+    }
+    .nextjs {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .nextjsBox {
+        width: 100px;
+        height: 45px;
+    }
+    .nextjsIcon {
+        font-size: 25px;
+    }
+    .nextjsText {
+        font-size: 12px;
+    }
+}
