@@ -2,6 +2,8 @@
 
 My personal website showcasing my experiences and who I am.
 <br>
-View at justinsong.site
+<br>
+View at [justinsong.site](https://justinsong.site)
+<br>
 <br>
 Created with React.
