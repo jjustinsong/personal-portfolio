@@ -1,9 +1,9 @@
-# Personal Portfolio
+# personal portfolio
 
-My personal website showcasing my experiences and who I am.
-<br>
+my personal website showcasing my experiences and who I am.
+#
 <br>
 View at [justinsong.site](https://justinsong.site)
-<br>
+#
 <br>
 Created with React.
