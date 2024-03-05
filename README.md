@@ -5,4 +5,4 @@ my personal website showcasing my experiences and who I am.
 created with react.
 #
 <br>
-View at [justinsong.site](https://justinsong.site)
+View at https://justinsong.site
