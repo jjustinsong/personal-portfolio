@@ -1,13 +1,22 @@
 import React from 'react'
 import "../styles/Home.css";
 import Typewriter from 'typewriter-effect';
+import { useEffect } from 'react';
 
 function Home() {
+
+    useEffect(() => {
+        document.body.style.overflow = "hidden";
+        return () => {
+            document.body.style.overflow = "scroll"
+        };
+    }, []);
+
     return (
         <div className="home">
             <div className="me">
                 <p className="hello">Hello World! I'm</p>
-                <h2 className="name">Justin</h2>
+                <h2 className="name">Justin Song</h2>
                 <div className="typewriter">
                     <Typewriter
                         options={{loop: true}}
