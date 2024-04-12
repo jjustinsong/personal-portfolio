@@ -16,7 +16,7 @@ function NavigationBar() {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement("a");
                 alink.href = fileURL;
-                alink.download = "Justin Song - SWE.pdf";
+                alink.download = "Justin Song - SWE Resume 6.pdf";
                 alink.click();
             });
         });
