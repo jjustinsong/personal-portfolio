@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.3f9e6056.css",
-    "main.js": "/personal-portfolio/static/js/main.8133b307.js",
-    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/headshot.jpg": "/personal-portfolio/static/media/headshot.221d8b6d82fb2cb780b4.jpg",
-    "static/media/berkeleycampus.jpeg": "/personal-portfolio/static/media/berkeleycampus.779332b36d2550809f64.jpeg",
-    "static/media/flwr-man.jpg": "/personal-portfolio/static/media/flwr-man.9e387ee8109cc69eb32b.jpg",
-    "index.html": "/personal-portfolio/index.html",
-    "main.3f9e6056.css.map": "/personal-portfolio/static/css/main.3f9e6056.css.map",
-    "main.8133b307.js.map": "/personal-portfolio/static/js/main.8133b307.js.map",
-    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/static/css/main.9d5034f8.css",
+    "main.js": "/static/js/main.19c6b908.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/headshot.jpg": "/static/media/headshot.221d8b6d82fb2cb780b4.jpg",
+    "static/media/berkeleycampus.jpeg": "/static/media/berkeleycampus.779332b36d2550809f64.jpeg",
+    "static/media/flwr-man.jpg": "/static/media/flwr-man.9e387ee8109cc69eb32b.jpg",
+    "index.html": "/index.html",
+    "main.9d5034f8.css.map": "/static/css/main.9d5034f8.css.map",
+    "main.19c6b908.js.map": "/static/js/main.19c6b908.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9e6056.css",
-    "static/js/main.8133b307.js"
+    "static/css/main.9d5034f8.css",
+    "static/js/main.19c6b908.js"
   ]
 }
