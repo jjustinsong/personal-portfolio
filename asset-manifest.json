@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5034f8.css",
-    "main.js": "/static/js/main.19c6b908.js",
+    "main.css": "/static/css/main.4187ca00.css",
+    "main.js": "/static/js/main.3b858276.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.221d8b6d82fb2cb780b4.jpg",
     "static/media/berkeleycampus.jpeg": "/static/media/berkeleycampus.779332b36d2550809f64.jpeg",
     "static/media/flwr-man.jpg": "/static/media/flwr-man.9e387ee8109cc69eb32b.jpg",
     "index.html": "/index.html",
-    "main.9d5034f8.css.map": "/static/css/main.9d5034f8.css.map",
-    "main.19c6b908.js.map": "/static/js/main.19c6b908.js.map",
+    "main.4187ca00.css.map": "/static/css/main.4187ca00.css.map",
+    "main.3b858276.js.map": "/static/js/main.3b858276.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5034f8.css",
-    "static/js/main.19c6b908.js"
+    "static/css/main.4187ca00.css",
+    "static/js/main.3b858276.js"
   ]
 }
