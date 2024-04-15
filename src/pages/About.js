@@ -20,10 +20,10 @@ function About() {
                 <div className="pictureAndParagraph">
                     <img className="berkeley" src={require("../assets/berkeleycampus.jpeg")} alt="Berkeley"/>
                     <div className="paragraphs">
-                        <p className="aboutMeParagraph">Hi! I'm Justin Song, a current student at UC Berkeley studying computer science. I'm well experienced in both back-end
-                        and front-end development, but recently, I have been extremely interested in artificial intelligence/machine learning. </p>
-                        <p className="internship">In my recent internship at ForUP LLC, I've researched topics like LLMs (Large Language Models), NLPs (Natural Language Processing),
-                        and SEOs (Search Engine Optimization) and how they can be implemented in certain data solutions.</p>
+                        <p className="aboutMeParagraph">Hi! I'm Justin Song, a current student at UC Berkeley studying computer science and data science. I'm extremely interested in
+                        full-stack development and AI/ML. </p>
+                        <p className="internship">Currently, I'm working as a Full-Stack Developer and AI/ML Intern at Hyphenova Network. My work mainly consists of database integration
+                        and management, as well as fine-tuning models for sentiment analysis.</p>
                         <p className="outro">I am always on the lookout for internships or opportunities to grow both personally and professionally! Please feel free to reach out
                         to me at jsong04@berkeley.edu!</p>
                     </div>
@@ -60,7 +60,7 @@ function About() {
                     <button className="javascript">
                         <div className="javascriptBox">
                             <BiLogoJavascript className="javascriptIcon" />
-                            <p className="javascriptText"> Javascript </p>
+                            <p className="javascriptText"> JavaScript </p>
                         </div>
                     </button>
                     <button className="react">

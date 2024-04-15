@@ -9,6 +9,7 @@ function Projects() {
                 <h2 className="flwrTitle">FLWR-MAN</h2>
                 <p className="flwrDescription">Simple game with a 2D array-powered map and a movable/customizable character. Objective is to enter all portals and collect all the flowers.</p>
                 <p className="flwrLanguages">Java</p>
+                <a className="flwrLink" href='https://github.com/jjustinsong/flwr-man' target='_blank' rel='noreferrer'>GitHub</a>
             </div>
             <div className="project2">
                 <h2 className="project2Title">SOON</h2>

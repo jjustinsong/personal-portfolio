@@ -1,16 +1,8 @@
 import React from 'react'
 import "../styles/Home.css";
 import Typewriter from 'typewriter-effect';
-import { useEffect } from 'react';
 
 function Home() {
-
-    useEffect(() => {
-        document.body.style.overflow = "hidden";
-        return () => {
-            document.body.style.overflow = "scroll"
-        };
-    }, []);
 
     return (
         <div className="home">
@@ -22,9 +14,9 @@ function Home() {
                         options={{loop: true}}
                         onInit={(typewriter) => {
                             typewriter
-                            .typeString("Full-stack Developer").pauseFor(2000).deleteAll()
+                            .typeString("Full-Stack Developer").pauseFor(2000).deleteAll()
                             .typeString("Innovator").pauseFor(2000).deleteAll()
-                            .typeString("Technology Enthusiast").pauseFor(2000).deleteAll()
+                            .typeString("ML Engineer").pauseFor(2000).deleteAll()
                             .typeString("Student").pauseFor(2000).deleteAll()
                             .start();
                         }}

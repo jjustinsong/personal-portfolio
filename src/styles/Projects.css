@@ -22,7 +22,7 @@
 }
 .flwr-man {
     width: 350px;
-    height: 400px;
+    height: 440px;
     position: relative;
     left: 150px;
     top: 50px;
@@ -52,9 +52,12 @@
     color: rgb(107, 72, 72);
     font-family: Montserrat;
 }
+.flwrLink {
+    color: aqua;
+}
 .project2 {
     width: 350px;
-    height: 400px;
+    height: 440px;
     position: relative;
     left: 190px;
     top: 50px;
@@ -70,7 +73,7 @@
 }
 .project3 {
     width: 350px;
-    height: 400px;
+    height: 440px;
     position: relative;
     left: 230px;
     top: 50px;
