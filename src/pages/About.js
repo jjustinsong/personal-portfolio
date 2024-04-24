@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {FaReact} from "react-icons/fa";
 import {BiLogoJavascript} from "react-icons/bi";
 import {FaHtml5} from "react-icons/fa";
@@ -11,11 +11,29 @@ import {PiFileSqlLight} from "react-icons/pi";
 import {TbBrandNextjs} from "react-icons/tb";
 
 function About() {
+    const [windowSize, setWindowSize] = useState(window.innerWidth);
+    const handleResize = () => {
+        setWindowSize(window.innerWidth);
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const divStyle = {
+        height: `calc(100% + ${windowSize < 768 ? '0px' : '186px'}`
+    }
+
     return (
-        <div class="overflow-x-hidden overflow-y-hidden w-full h-[800px] font-montserrat flex flex-col">
-            <div class="flex flex-col">
-                <h2 class="text-white mb-[5px] pt-[20px] relative -left-[173px] md:-left-[575px] font-bold text-[20px] animate-slideInFromLeft">About me</h2>   
-                <hr class="w-[87%] m-auto bg-gray h-[1px] border-none mt-0" />
+        <div style={divStyle} class="bg-dark overflow-x-hidden w-full font-montserrat flex flex-col">
+            <div class="flex flex-col items-center md:h-1/2">
+                <div class="w-[87%]">
+                    <h2 class="text-left text-white mb-[5px] pt-[20px] relative font-bold text-[20px] animate-slideInFromLeft">About me</h2>
+                </div>
+                <hr class="w-[87%] m-auto bg-gray h-[1px] border-none mt-0 mb-0" />
                 <div class="flex flex-col md:flex-row items-center md:items-stretch">
                     <img class="hidden md:inline w-1/4 rounded-[300px] relative left-[140px] top-[40px] border-solid border-gray border-[5px] animate-slideInFromLeft" src={require("../assets/berkeleycampus.jpeg")} alt="Berkeley"/>
                     <div class="flex flex-col animate-slideInFromRight w-[85%] md:w-full">
@@ -28,10 +46,12 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div class="w-full h-full font-montserrat flex flex-col mt-[30px]">
-                <h2 class="text-white pt-[20px] mb-[5px] relative -left-[200px] md:-left-[600px] md:top-[60px] text-[20px] font-bold animate-slideInFromLeft">Skills</h2>
-                <hr class="w-[87%] m-auto bg-gray h-[1px] border-none mt-0 relative md:top-[60px]" />
-                <div class="flex flex-row justify-evenly -top-[50px] md:w-[1150px] items-center flex-wrap relative md:-top-[30px] md:left-[150px] animate-slideInFromRight">
+            <div class="flex flex-col md:justify-center items-center mt-[60px] md:h-1/2">
+                <div class="w-[87%]">
+                    <h2 class="text-left text-white pt-[20px] mb-[5px] relative text-[20px] font-bold animate-slideInFromLeft">Skills</h2>
+                </div>
+                <hr class="w-[87%] m-auto mt-0 mb-0 bg-gray h-[1px] border-none mt-0" />
+                <div class="flex flex-row justify-evenly w-[87%] md:w-[1150px] items-center flex-wrap relative animate-slideInFromRight">
                     <button class="bg-transparent w-[140px] h-[52px] md:w-[200px] md:h-[75px] mt-[20px] border-solid border-white border-[1.5px] duration-300 hover:bg-white hover:shadow-s hover:-translate-y-[0.25em] group">
                         <div class="flex flex-row justify-evenly items-center">
                             <FaJava class="text-[30px] md:text-[50px] text-white group-hover:text-black" />

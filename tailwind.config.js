@@ -3,6 +3,15 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,html}"],
   theme: {
     extend: {
+      height: {
+        'screen-minus-186px': 'calc(100% - 186px)',
+      },
+      width: {
+        '1/11': '9.09090909%',
+        '2/11': '18.18181818%',
+        '3/11': '27.27272727%',
+        '5/11': '45.45454545%',
+      },
       animation: {
         slideInFromLeft: '1s ease-in-out 0s 1 slideInFromLeft',
         slideInFromRight: '1s ease-in-out 0s 1 slideInFromRight',
