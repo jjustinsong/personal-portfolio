@@ -108,14 +108,17 @@
 }
 
 #open {
-    height: 50vh;
+    height: 25vh;
+    transition: 0.5s;
 }
 
 #open .links {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    margin-top: 20px;
-    margin-left: 0px;
+}
+
+#close {
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 900px) {
