@@ -11,12 +11,12 @@ function NavigationBar() {
     }, [location])
 
     const onButtonClick = () => {
-        fetch("Justin Song - SWE.pdf").then((response) => {
+        fetch("Justin Song - SWE Resume 5.pdf").then((response) => {
             response.blob().then((blob) => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement("a");
                 alink.href = fileURL;
-                alink.download = "Justin Song - SWE Resume 6.pdf";
+                alink.download = "Justin Song - SWE Resume 5.pdf";
                 alink.click();
             });
         });
