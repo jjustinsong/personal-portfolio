@@ -34,6 +34,13 @@ function Projects() {
     return (
         <div style={divStyle} class="overflow-x-hidden md:w-full font-montserrat flex flex-col md:flex-row animate-slideInFromTop items-center md:items-flex-start justify-center">
             <Container 
+                name='Email Classifier' 
+                description='Full-stack application for email spam classification. Input email subject and body to determine whether or not it is spam.'
+                languages='Python, Flask, React, HTML/CSS, Tailwind'
+                link='https://github.com/jjustinsong/email-spam-predictor'
+                image={require('../assets/email-classifier.png')}
+            />
+            <Container 
                 name='IG Data Scraper' 
                 description='Automated web browsing data scraper for Instagram. Pulls multiple profiles with their bio, title, follower count, individual post statistics, and more.'
                 languages='Python, Selenium'
