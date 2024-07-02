@@ -48,7 +48,7 @@ module.exports = {
         '100px': '100px',
         '70px': '70px',
         '249px': '249px',
-
+        '500px': '500px',
       },
     },
     fontFamily: {

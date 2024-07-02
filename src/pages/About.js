@@ -24,29 +24,27 @@ function About() {
     }, []);
 
     const divStyle = {
-        height: `calc(100% + ${windowSize < 768 ? '0px' : '186px'}`
+        height: `calc(100% + ${windowSize < 768 ? '0px' : '400px'}`
     }
 
     return (
         <div style={divStyle} class="bg-dark overflow-x-hidden w-full font-montserrat flex flex-col">
-            <div class="flex flex-col items-center md:h-1/2">
+            <div class="flex flex-col items-center md:h-3/4">
                 <div class="w-[87%]">
                     <h2 class="text-left text-white mb-[5px] pt-[20px] relative font-bold text-[20px] animate-slideInFromLeft">About me</h2>
                 </div>
-                <hr class="w-[87%] m-auto bg-gray h-[1px] border-none mt-0 mb-0" />
+                <hr class="w-[87%] m-auto bg-gray h-[1px] border-none mt-0 mb-100px" />
                 <div class="flex flex-col md:flex-row items-center md:items-stretch">
-                    <img class="hidden md:inline w-1/4 rounded-[300px] relative left-[140px] top-[40px] border-solid border-gray border-[5px] animate-slideInFromLeft" src={require("../assets/berkeleycampus.jpeg")} alt="Berkeley"/>
-                    <div class="flex flex-col animate-slideInFromRight w-[85%] md:w-full">
-                        <p class="text-[13px] md:text-[16px] text-white leading-loose text-left m-[10px] md:m-0 md:w-[700px] relative md:left-[230px] md:top-[80px]">Hi! I'm Justin Song, a current student at UC Berkeley studying computer science and data science. I'm extremely interested in
-                        full-stack development and AI/ML. </p>
-                        <p class="text-[13px] md:text-[16px] text-white leading-loose text-left m-[10px] md:m-0 md:w-[700px] relative md:left-[230px] md:top-[95px]">Currently, I'm working as a Full-Stack Developer and AI/ML Intern at Hyphenova Network. My work mainly consists of database integration
-                        and management, as well as fine-tuning models for sentiment analysis.</p>
-                        <p class="text-[13px] md:text-[16px] text-white leading-loose text-left m-[10px] md:m-0 md:w-[700px] relative md:left-[230px] md:top-[110px]">I am always on the lookout for internships or opportunities to grow both personally and professionally! Please feel free to reach out
-                        to me at jsong04@berkeley.edu!</p>
+                    <img class="hidden md:inline w-1/4 rounded-[20px] relative left-[140px] top-[40px] border-solid border-gray border-[5px] animate-slideInFromLeft" src={require("../assets/me (1).jpg")} alt="Berkeley"/>
+                    <div class="flex flex-col animate-slideInFromRight w-[85%] md:w-full min-h-[400px] p-[10px]">
+                        <p class="text-[13px] md:text-[16px] text-white leading-loose text-left m-[10px] md:m-0 md:w-[700px] relative md:left-[230px] md:top-[80px]">Hi! I'm Justin Song, a rising junior at UC Berkeley studying computer science and data science. I'm extremely interested in
+                        full-stack development and AI/ML. <br /> <br /> Recently, I interned as a Full-Stack Developer and AI/ML Engineer at Hyphenova Network where my work mainly consisted of database integration
+                        and management, as well as fine-tuning models for sentiment analysis. <br /> <br /> When I'm not coding, you can find me watching soccer or basketball, eating good food, or reading manga! <br /> <br /> I am always on the lookout for internships or opportunities to grow both personally and professionally! Please feel free to reach out
+                        to me at jsong04@berkeley.edu! </p>
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col md:justify-center items-center mt-[60px] md:h-1/2">
+            <div class="flex flex-col md:justify-center items-center mt-[40px] md:h-1/2">
                 <div class="w-[87%]">
                     <h2 class="text-left text-white pt-[20px] mb-[5px] relative text-[20px] font-bold animate-slideInFromLeft">Skills</h2>
                 </div>

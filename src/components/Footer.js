@@ -17,7 +17,7 @@ function Footer() {
                 <a href="https://github.com/jjustinsong">
                     <GitHubIcon />
                 </a>
-                <p> &copy; 2023 Justin Song</p>
+                <p> &copy; 2024 Justin Song</p>
             </div>
         </div>
     )

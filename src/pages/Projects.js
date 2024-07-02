@@ -32,7 +32,21 @@ function Projects() {
     }
 
     return (
-        <div style={divStyle} class="overflow-x-hidden md:w-full font-montserrat flex flex-col md:flex-row animate-slideInFromTop items-center md:items-flex-start justify-center">
+        <div style={divStyle} class="overflow-x-hidden md:w-full font-montserrat flex flex-col flex-wrap md:flex-row animate-slideInFromTop items-center md:items-flex-start justify-center">
+            <Container
+                name='Sentiment Analysis'
+                description="Meta's Llama 2 model quantized and fine-tuned for sentiment analysis tasks using low-rank adaptation and parameter efficient fine-tuning."
+                languages='Python, PyTorch, Transformers, pandas'
+                link='https://github.com/jjustinsong/sentiment-analysis'
+                image={require('../assets/sentiment-analysis.png')}
+            />            
+            <Container
+                name='Photo Album Searcher'
+                description='Mobile application enabling users to search their photo albums using descriptions and share their finds on a social feed.'
+                languages='Dart, Flutter, Python, Flask, OpenAI, Firebase'
+                link='https://github.com/jjustinsong/snapseek'
+                image={require('../assets/snapseek.jpg')}
+            />
             <Container 
                 name='Email Classifier' 
                 description='Full-stack application for email spam classification. Input email subject and body to determine whether or not it is spam.'
